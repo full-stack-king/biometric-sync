@@ -1,0 +1,20 @@
+{
+    "name": "raja/bio-sync",
+    "description": "Package for communicating with essl x990 biometric device via udp protocol",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0",
+        "ext-soap": "*",
+        "ext-sockets": "*"
+    },
+    "authors": [
+        {
+            "name": "Raja",
+            "email": "rajacse10@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Biosync\\": "src/"}
+    },
+    "minimum-stability": "stable"
+}
