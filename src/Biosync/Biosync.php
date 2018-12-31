@@ -1,10 +1,10 @@
 <?php    
-namespace ZKLib;
+namespace Biosync;
 
 /**
  * Master class
  */
-class ZKLib {
+class Biosync {
     public $ip;
     public $port;
     public $zkclient;

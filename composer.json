@@ -14,7 +14,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Biosync\\": "src/"}
+        "psr-4": {
+            "Biosync\\": "src/Biosync"
+        }
     },
     "minimum-stability": "dev"
 }
