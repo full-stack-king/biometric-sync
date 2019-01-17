@@ -2,12 +2,12 @@
 
 PHP library for communicating with essl x990 biometric device via udp protocol
 
-##Installation
+## Installation
 
 ```
 composer require rajakannan/biosync
 ```
-##Usage
+## Usage
 
 ```
 <?php
