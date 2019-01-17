@@ -12,7 +12,7 @@ composer require rajakannan/biosync
 ```
 <?php
 
-require __DIR__.'/../vendor/autoload.php';
+require './vendor/autoload.php';
 
 use Biosync\Biosync;
 
