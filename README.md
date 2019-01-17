@@ -12,12 +12,11 @@ composer require rajakannan/biosync
 ```
 <?php
 
-namespace App\Http\Controllers;
-
 require __DIR__.'/../vendor/autoload.php';
 
 use Biosync\Biosync;
-class AttendanceController {
+
+class Attendance {
 
     protected $ip;
     protected $device;
