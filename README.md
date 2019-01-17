@@ -41,25 +41,19 @@ class Attendance {
     {
         $this->device = new Biosync($this->ip, 4370);
         $ret = $this->device->connect();
-        info('connected to device ' . $this->ip);
         $this->device->disableDevice();
-        info('disabled device ' . $this->ip);
     }
 
     public function disconnect()
     {
         $this->device->enableDevice();
-        info('activating device ' . $this->ip);
         $this->device->disconnect();
-        info('disconnected from device ' . $this->ip);
     }
 
     public function getAttendance()
     {
         $this->connect();
-        info('getting attendance ' . $this->ip);
         $attendance = $this->device->getAttendance();
-        info('received attendance from ' . $this->ip);
         $this->disconnect();
         return $attendance;
     }
